@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title>Elements multimedia</title>
+</head>
+<body>
+
+    <div id="myModal" class="modal">
+        <span onclick="close" class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+    
+    <div class="wrapper">
+        <h2><strong>Shang Hai</strong></h2>
+
+        <div class="cards">   
+            <figure class="card">
+                <img src="img/ShangHai.jpg" onclick="click()" id="img1"/>
+                <figcaption>Pearl tower</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="img/SHDentro.jpg" />
+                <figcaption>Interior</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="img/SHPearlTower.jpg" />
+                <figcaption>Vista nocturna</figcaption>
+            </figure>
+        </div>
+    
+        <div class="news">
+            <figure class="article">    
+                <img src="img/SHVista1.jpg" />    
+                <figcaption>    
+                    <h3>Shanghai</h3>    
+                    <p>Vistas nocturnas</p>
+                </figcaption>
+            </figure>
+            <figure class="article">    
+                <img src="img/SHVistaArriba.jpg" />    
+                <figcaption>    
+                    <h3>Shanghai</h3>    
+                    <p>Vistas arriba desde pearl tower</p>
+                </figcaption>
+            </figure>
+            <figure class="article">    
+                <img src="img/SHKaraoke.jpg" />    
+                <figcaption>    
+                    <h3>Shanghai</h3>    
+                    <p>Karaoke en cabinas individuales</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h2><strong>Fang te</strong></h2>
+
+        <div class="cards">   
+            <figure class="card">
+                <img src="img/FTCastle.jpg" />
+                <figcaption>Castillo</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="img/FTTower.jpg" />
+                <figcaption>Torre</figcaption>
+            </figure>
+        </div>
+    
+        <div class="news">
+            <figure class="article">    
+                <img src="img/FTDengLong.jpg" />    
+                <figcaption>    
+                    <h3>Fang te</h3>    
+                    <p>Multiples linterna que iluminan el espacio</p>
+                </figcaption>
+            </figure>
+            <figure class="article">    
+                <img src="img/FTTardecer.jpg" />    
+                <figcaption>    
+                    <h3>Fang te</h3>
+                    <p>Castillo principal en atardecer</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h2><strong>Heng dian</strong></h2>
+    
+        <div class="news">
+            <figure class="article">    
+                <img src="img/HDStreet1.jpg" />    
+                <figcaption>    
+                    <h3>Heng dian</h3>    
+                    <p>Decoracion del lugar</p>
+                </figcaption>
+            </figure>
+            <figure class="article">    
+                <img src="img/HDStreet2.jpg" />    
+                <figcaption>    
+                    <h3>Heng dian</h3>
+                    <p>Pasillo y edificios de la zona</p>
+                </figcaption>
+            </figure>
+            <figure class="article">    
+                <img src="img/HDArmas.jpg" />    
+                <figcaption>    
+                    <h3>Heng dian</h3>
+                    <p>Armas y sus soportes</p>
+                </figcaption>
+            </figure>
+            <figure class="article">    
+                <img src="img/HDDentro.jpg" />    
+                <figcaption>    
+                    <h3>Heng dian</h3>
+                    <p>Interior del castillo</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h2><strong>Vídeo</strong></h2>
+
+        <video class="video" src="img/Video.mp4" controls>
+            <track default srclang="cn" src="subtitle_cn.vtt">
+            <track default srclang="es" src="subtitle_es.vtt">
+        </video>
+    </div>
+
+</body>
+</html>
